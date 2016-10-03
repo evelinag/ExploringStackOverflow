@@ -6,44 +6,20 @@
 
 ***
 
-- data-background : images/copypaste-bg.jpg
+- data-background: images/posts-background.png
+- class : withbackground
 
-<table>
-<tr>
-  <td class="noborder" style="width:60%;">
-  </td> 
-  <td class="noborder" style="width:40%;">
-
-<div style="color: white" >
-<h2> <div style="color: white" > Evelina Gabasova </div> </h2>
-@evelgab <br />
-evelinag.com<br />
-github.com/evelinag
-</div>
-</td>
-
-</tr>
-</table>
+# <div style="color: white" > Exploring StackOverflow </div>
+## <div style="color: white" > Evelina Gabasova </div>
+## <div style="color: white" > @evelgab </div>
 
 ------------------------------------------------------------------------------------------------
 
-<h2> Exploring </h2> <img style="height:200px" src="images/so-logo.png" /> 
-
-<br /> 
-<h2 style="color: #e3650c"> Evelina Gabasova </h2>
-@evelgab 
+<img src="images/so-logo.png" /> 
 
 ------------------------------------------------------------------------------------------------
 
-<h2> Exploring </h2> <img style="height:200px" src="images/cambridge-logo.jpg" /> 
-
-<br /> 
-<h2 style="color: #e3650c"> Evelina Gabasova </h2>
-@evelgab 
-
-------------------------------------------------------------------------------------------------
-
-- data-background : images/cambridge1.jpg
+<img src="images/cambridge-logo.jpg" /> 
 
 ------------------------------------------------------------------------------------------------
 
@@ -54,6 +30,18 @@ github.com/evelinag
 - data-background : images/cancer-unit.jpg
 
 ------------------------------------------------------------------------------------------------
+
+- data-background : images/tcga-dna.jpg
+
+------------------------------------------------------------------------------------------------
+
+- data-background : images/bam2.png
+
+------------------------------------------------------------------------------------------------
+
+- data-background : images/star-wars.png
+
+------------------------------------------------------------------------------------------------
 ![](images/so-logo.png)
 
 ' Why analyze StackOverflow?
@@ -62,9 +50,19 @@ github.com/evelinag
 
 ------------------------------------------------------------------------------------------------
 
+- data-background: #d3d3d3
+
+<img src="images/copypaste.jpg" style="height: 640px" />
+
+------------------------------------------------------------------------------------------------
+
+- data-background: #d3d3d3
+
 ![](images/api.png)
 
 ------------------------------------------------------------------------------------------------
+
+- data-background: #d3d3d3
 
 ![](images/archive.png)
 
@@ -72,13 +70,16 @@ github.com/evelinag
 
 - data-background : black
 
-![](images/files.png)
+<img src="images/files.png" style="width: 960px" />
 
 ' 135 GB approx
 
 ------------------------------------------------------------------------------------------------
 
-<h1 style="font-size:200pt"> ? </h1>
+- data-background: images/posts-background.png
+- class : withbackground
+
+<h1 style="font-size:400pt; color: white"> ? </h1>
 
 ' Questions are important - parallel from genomics
 
@@ -90,21 +91,20 @@ github.com/evelinag
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : images/dafuq.png
+- data-background : black
+
+<img src="images/dafuq.png" style="height: 640px" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+- data-background: images/posts-background.png
+- class : withbackground
 
-# Ask questions! 
+<h1 style="font-size:110pt; color: white"> Questions </h1>
 
 ------------------------------------------------------------------------------------------------
 
 ![](images/so-structure-full.png)
-
-------------------------------------------------------------------------------------------------
-
-![](images/so-structure-question.png)
 
 ------------------------------------------------------------------------------------------------
 
@@ -127,8 +127,7 @@ github.com/evelinag
 
 ------------------------------------------------------------------------------------------------
 
-<img src="images/tag-frequency.png" style="width:1500px" />
-
+- data-background : images/tag-frequency.png
 
 ------------------------------------------------------------------------------------------------
 
@@ -144,7 +143,8 @@ github.com/evelinag
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+- data-background: images/posts-background.png
+- class : withbackground
 
 # Question: When?
 
@@ -185,19 +185,6 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
-
-# Side projects?
-
-------------------------------------------------------------------------------------------------
-
-- data-background : #f68024 
-
-<img src="images/Krzysztof1.jpg" style="height: 600px; text-align:center" />
-
-
-------------------------------------------------------------------------------------------------
-
 - data-background : #f68024 
 
 <img src="images/Krzysztof2.jpg" style="height: 500px; text-align:center" />
@@ -205,9 +192,70 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+<img src="images/weekend-ratio0.png" style="height: 600px" />
 
-' TODO: image of the concept
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio1.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio2.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio3.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio4.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio5.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio6.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio7.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+- data-background: images/posts-background.png
+- class : withbackground
+
+# Weekend index
+
+------------------------------------------------------------------------------------------------
+
+# Most weekend
+
+1. Minecraft : 1.19
+
+2. LWJGL : 1.12
+
+3. SFML (Simple and Fast Multimedia Library) : 1.06                                                                                                                    
+4. D : 1.04                                                                                                                       
+5. pygame : 1.03   
+
+
+------------------------------------------------------------------------------------------------
+
+# Most weekday
+
+1. SQL Server Reporting Services 2008, r2 : 0.11
+
+2. Infragistics : 0.13
+
+3. SQL Server Reporting Services 2008 : 0.13 
+
+4. Axapta : 0.13                                                                                                                 
+5. DocusignAPI : 0.14     
+
+' Axapta =  enterprise resource planning solution
 
 ------------------------------------------------------------------------------------------------
 
@@ -224,6 +272,29 @@ function drawChart() {
 }
 </script>
 <div id="8c94b49e-d814-44db-acbd-8d057057761b" style="width: 800px; height: 600px;"></div>
+
+------------------------------------------------------------------------------------------------
+
+### Data science
+
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]})
+    google.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "Python"}, {"v": 0.606629300657529}]}, {"c" : [{"v": "R"}, {"v": 0.49564316329895}]}, {"c" : [{"v": "Scala"}, {"v": 0.592436649187611}]}, {"c" : [{"v": "Matlab"}, {"v": 0.579115610015983}]}, {"c" : [{"v": "SAS"}, {"v": 0.294543000385654}]}, {"c" : [{"v": "Hadoop"}, {"v": 0.410816667419078}]}, {"c" : [{"v": "F#"}, {"v": 0.651055951727921}]}]});
+    var options = {"hAxis":{"title":"Number of questions","viewWindowMode":"explicit","viewWindow":{"min":0}},"legend":{"position":"none"},"width":1000,"height":600}  
+    var chart = new google.visualization.BarChart(document.getElementById('8d5b1ad7-9c7e-47bc-b894-a6e867ad589f'));
+    chart.draw(data, options);
+}
+</script>
+<div id="8d5b1ad7-9c7e-47bc-b894-a6e867ad589f" style="width: 800px; height: 600px;"></div>
+
+
+------------------------------------------------------------------------------------------------
+
+### Continuous integration 
+
+![](images/travis-vs-jenkins.png)
 
 ------------------------------------------------------------------------------------------------
 
@@ -259,6 +330,9 @@ function drawChart() {
 
 ************************************************************************************************
 
+- data-background: images/posts-background.png
+- class : withbackground
+
 <h1 style="font-size:200pt"> ? </h1>
 
 ------------------------------------------------------------------------------------------------
@@ -286,11 +360,6 @@ function drawChart() {
 
 - 769 541 filled in their location
 
-
-------------------------------------------------------------------------------------------------
-
-- data-background : black
-
 ------------------------------------------------------------------------------------------------
 
 - data-background : black
@@ -298,6 +367,8 @@ function drawChart() {
 ### $HOME
 
 ------------------------------------------------------------------------------------------------
+
+- data-background : black
 
 # 83%
 
@@ -319,17 +390,28 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+- data-background: images/posts-background.png
+- class : withbackground 
+
+# Where?
 
 ' demo: JSON type provider + Bing map API
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : images/universe.jpg
+### Javascript
 
-------------------------------------------------------------------------------------------------
- 
-# Where?
+<script type="text/javascript">
+google.load("visualization", "1", {packages:["geochart"]})
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "United States"}, {"v": 49103}]}, {"c" : [{"v": "Canada"}, {"v": 7213}]}, {"c" : [{"v": "United Kingdom"}, {"v": 13960}]}, {"c" : [{"v": "Turkey"}, {"v": 1550}]}, {"c" : [{"v": "Australia"}, {"v": 4874}]}, {"c" : [{"v": "India"}, {"v": 26724}]}, {"c" : [{"v": "Israel"}, {"v": 1481}]}, {"c" : [{"v": "South Africa"}, {"v": 1356}]}, {"c" : [{"v": "Denmark"}, {"v": 1471}]}, {"c" : [{"v": "Georgia"}, {"v": 253}]}, {"c" : [{"v": "Netherlands"}, {"v": 4358}]}, {"c" : [{"v": "Sweden"}, {"v": 2615}]}, {"c" : [{"v": "France"}, {"v": 4910}]}, {"c" : [{"v": "Colombia"}, {"v": 482}]}, {"c" : [{"v": "Belgium"}, {"v": 1807}]}, {"c" : [{"v": "Ireland"}, {"v": 1232}]}, {"c" : [{"v": "New Zealand"}, {"v": 1204}]}, {"c" : [{"v": "Lebanon"}, {"v": 194}]}, {"c" : [{"v": "Hungary"}, {"v": 659}]}, {"c" : [{"v": "Norway"}, {"v": 1154}]}, {"c" : [{"v": "Finland"}, {"v": 775}]}, {"c" : [{"v": "Germany"}, {"v": 7863}]}, {"c" : [{"v": "Mexico"}, {"v": 1100}]}, {"c" : [{"v": "Philippines"}, {"v": 1220}]}, {"c" : [{"v": "Poland"}, {"v": 2486}]}, {"c" : [{"v": "Argentina"}, {"v": 1115}]}, {"c" : [{"v": "Paraguay"}, {"v": 50}]}, {"c" : [{"v": "Spain"}, {"v": 2658}]}, {"c" : [{"v": "Chile"}, {"v": 398}]}, {"c" : [{"v": "Belarus"}, {"v": 555}]}, {"c" : [{"v": "Latvia"}, {"v": 315}]}, {"c" : [{"v": "Thailand"}, {"v": 326}]}, {"c" : [{"v": "Japan"}, {"v": 720}]}, {"c" : [{"v": "Austria"}, {"v": 1022}]}, {"c" : [{"v": "Lithuania"}, {"v": 365}]}, {"c" : [{"v": "Luxembourg"}, {"v": 72}]}, {"c" : [{"v": "Russia"}, {"v": 3218}]}, {"c" : [{"v": "Brazil"}, {"v": 3600}]}, {"c" : [{"v": "Iceland"}, {"v": 118}]}, {"c" : [{"v": "Singapore"}, {"v": 893}]}, {"c" : [{"v": "Oman"}, {"v": 1312}]}, {"c" : [{"v": "Croatia"}, {"v": 401}]}, {"c" : [{"v": "Kenya"}, {"v": 224}]}, {"c" : [{"v": "Switzerland"}, {"v": 1561}]}, {"c" : [{"v": "Honduras"}, {"v": 36}]}, {"c" : [{"v": "Uruguay"}, {"v": 212}]}, {"c" : [{"v": "Bolivia"}, {"v": 62}]}, {"c" : [{"v": "Bangladesh"}, {"v": 1002}]}, {"c" : [{"v": "Pakistan"}, {"v": 2056}]}, {"c" : [{"v": "Puerto Rico"}, {"v": 67}]}, {"c" : [{"v": "Italy"}, {"v": 2707}]}, {"c" : [{"v": "Estonia"}, {"v": 268}]}, {"c" : [{"v": "Greece"}, {"v": 742}]}, {"c" : [{"v": "Myanmar"}, {"v": 107}]}, {"c" : [{"v": "Slovakia"}, {"v": 363}]}, {"c" : [{"v": "Portugal"}, {"v": 1107}]}, {"c" : [{"v": "Czech Republic"}, {"v": 1069}]}, {"c" : [{"v": "Malaysia"}, {"v": 539}]}, {"c" : [{"v": "Bulgaria"}, {"v": 702}]}, {"c" : [{"v": "Gabon"}, {"v": 6}]}, {"c" : [{"v": "China"}, {"v": 2578}]}, {"c" : [{"v": "Serbia"}, {"v": 487}]}, {"c" : [{"v": "Trinidad and Tobago"}, {"v": 25}]}, {"c" : [{"v": "Slovenia"}, {"v": 292}]}, {"c" : [{"v": "Taiwan"}, {"v": 340}]}, {"c" : [{"v": "Ukraine"}, {"v": 2630}]}, {"c" : [{"v": "El Salvador"}, {"v": 75}]}, {"c" : [{"v": "Jordan"}, {"v": 240}]}, {"c" : [{"v": "Guatemala"}, {"v": 81}]}, {"c" : [{"v": "Central African Republic"}, {"v": 10}]}, {"c" : [{"v": "Armenia"}, {"v": 155}]}, {"c" : [{"v": "Dominica"}, {"v": 128}]}, {"c" : [{"v": "United Arab Emirates"}, {"v": 365}]}, {"c" : [{"v": "Peru"}, {"v": 208}]}, {"c" : [{"v": "Moldova"}, {"v": 109}]}, {"c" : [{"v": "Botswana"}, {"v": 15}]}, {"c" : [{"v": "Venezuela"}, {"v": 247}]}, {"c" : [{"v": "Egypt"}, {"v": 661}]}, {"c" : [{"v": "Cambodia"}, {"v": 115}]}, {"c" : [{"v": "Costa Rica"}, {"v": 168}]}, {"c" : [{"v": "Samoa"}, {"v": 2}]}, {"c" : [{"v": "Ecuador"}, {"v": 85}]}, {"c" : [{"v": "Macedonia"}, {"v": 123}]}, {"c" : [{"v": "Saint Lucia"}, {"v": 2}]}, {"c" : [{"v": "Iran"}, {"v": 1246}]}, {"c" : [{"v": "Indonesia"}, {"v": 963}]}, {"c" : [{"v": "Greenland"}, {"v": 4}]}, {"c" : [{"v": "Madagascar"}, {"v": 22}]}, {"c" : [{"v": "Palestine"}, {"v": 51}]}, {"c" : [{"v": "Kyrgyzstan"}, {"v": 44}]}, {"c" : [{"v": "Antigua and Barbuda"}, {"v": 11}]}, {"c" : [{"v": "Albania"}, {"v": 66}]}, {"c" : [{"v": "Qatar"}, {"v": 38}]}, {"c" : [{"v": "Malta"}, {"v": 121}]}, {"c" : [{"v": "San Marino"}, {"v": 2}]}, {"c" : [{"v": "Afghanistan"}, {"v": 62}]}, {"c" : [{"v": "Saudi Arabia"}, {"v": 137}]}, {"c" : [{"v": "Vietnam"}, {"v": 691}]}, {"c" : [{"v": "Bosnia and Herzegovina"}, {"v": 150}]}, {"c" : [{"v": "Panama"}, {"v": 48}]}, {"c" : [{"v": "Tunisia"}, {"v": 218}]}, {"c" : [{"v": "Heard Island and McDonald Islands"}, {"v": 1}]}, {"c" : [{"v": "Niger"}, {"v": 285}]}, {"c" : [{"v": "Syria"}, {"v": 64}]}, {"c" : [{"v": "Nepal"}, {"v": 487}]}, {"c" : [{"v": "Uzbekistan"}, {"v": 64}]}, {"c" : [{"v": "South Korea"}, {"v": 349}]}, {"c" : [{"v": "Solomon Islands"}, {"v": 6}]}, {"c" : [{"v": "Abkhazia"}, {"v": 7}]}, {"c" : [{"v": "Cyprus"}, {"v": 80}]}, {"c" : [{"v": "Micronesia"}, {"v": 4}]}, {"c" : [{"v": "Macao SAR"}, {"v": 6}]}, {"c" : [{"v": "Jamaica"}, {"v": 38}]}, {"c" : [{"v": "Kazakhstan"}, {"v": 100}]}, {"c" : [{"v": "Azerbaijan"}, {"v": 77}]}, {"c" : [{"v": "Uganda"}, {"v": 53}]}, {"c" : [{"v": "Bahrain"}, {"v": 34}]}, {"c" : [{"v": "Sri Lanka"}, {"v": 867}]}, {"c" : [{"v": "Bermuda"}, {"v": 6}]}, {"c" : [{"v": "Mali"}, {"v": 12}]}, {"c" : [{"v": "Guinea"}, {"v": 6}]}, {"c" : [{"v": "Nicaragua"}, {"v": 38}]}, {"c" : [{"v": "Antarctica"}, {"v": 8}]}, {"c" : [{"v": "Isle of Man"}, {"v": 12}]}, {"c" : [{"v": "Algeria"}, {"v": 127}]}, {"c" : [{"v": "Aruba"}, {"v": 5}]}, {"c" : [{"v": "Fiji"}, {"v": 10}]}, {"c" : [{"v": "Montenegro"}, {"v": 14}]}, {"c" : [{"v": "Rwanda"}, {"v": 6}]}, {"c" : [{"v": "Kuwait"}, {"v": 42}]}, {"c" : [{"v": "Morocco"}, {"v": 228}]}, {"c" : [{"v": "North Korea"}, {"v": 25}]}, {"c" : [{"v": "Mozambique"}, {"v": 12}]}, {"c" : [{"v": "Bahamas, The"}, {"v": 12}]}, {"c" : [{"v": "Romania"}, {"v": 116}]}, {"c" : [{"v": "Maldives"}, {"v": 22}]}, {"c" : [{"v": "Zimbabwe"}, {"v": 19}]}, {"c" : [{"v": "Yemen"}, {"v": 12}]}, {"c" : [{"v": "Seychelles"}, {"v": 2}]}, {"c" : [{"v": "Curacao"}, {"v": 12}]}, {"c" : [{"v": "Liberia"}, {"v": 1}]}, {"c" : [{"v": "Kosovo"}, {"v": 42}]}, {"c" : [{"v": "Andorra"}, {"v": 53}]}, {"c" : [{"v": "Belize"}, {"v": 6}]}, {"c" : [{"v": "Ghana"}, {"v": 60}]}, {"c" : [{"v": "Mauritius"}, {"v": 46}]}, {"c" : [{"v": "Reunion"}, {"v": 6}]}, {"c" : [{"v": "Brunei"}, {"v": 8}]}, {"c" : [{"v": "South Sudan"}, {"v": 3}]}, {"c" : [{"v": "Ethiopia"}, {"v": 53}]}, {"c" : [{"v": "Libya"}, {"v": 15}]}, {"c" : [{"v": "Senegal"}, {"v": 5}]}, {"c" : [{"v": "Cayman Islands"}, {"v": 11}]}, {"c" : [{"v": "Namibia"}, {"v": 11}]}, {"c" : [{"v": "Mongolia"}, {"v": 37}]}, {"c" : [{"v": "Marshall Islands"}, {"v": 19}]}, {"c" : [{"v": "Cuba"}, {"v": 66}]}, {"c" : [{"v": "Benin"}, {"v": 7}]}, {"c" : [{"v": "Chad"}, {"v": 8}]}, {"c" : [{"v": "Guyana"}, {"v": 5}]}, {"c" : [{"v": "Saba"}, {"v": 1}]}, {"c" : [{"v": "Angola"}, {"v": 8}]}, {"c" : [{"v": "Sudan"}, {"v": 6}]}, {"c" : [{"v": "Tanzania"}, {"v": 46}]}, {"c" : [{"v": "Cameroon"}, {"v": 37}]}, {"c" : [{"v": "Barbados"}, {"v": 11}]}, {"c" : [{"v": "Turks and Caicos Islands"}, {"v": 1}]}, {"c" : [{"v": "Jersey"}, {"v": 8}]}, {"c" : [{"v": "Mauritania"}, {"v": 4}]}, {"c" : [{"v": "Faroe Islands"}, {"v": 6}]}, {"c" : [{"v": "Guam"}, {"v": 2}]}, {"c" : [{"v": "Tajikistan"}, {"v": 6}]}, {"c" : [{"v": "Tuvalu"}, {"v": 1}]}, {"c" : [{"v": "French Polynesia"}, {"v": 3}]}, {"c" : [{"v": "Liechtenstein"}, {"v": 7}]}, {"c" : [{"v": "Gibraltar"}, {"v": 7}]}, {"c" : [{"v": "FYRO Macedonia"}, {"v": 8}]}, {"c" : [{"v": "Norfolk Island"}, {"v": 1}]}, {"c" : [{"v": "Vanuatu"}, {"v": 3}]}, {"c" : [{"v": "Bhutan"}, {"v": 10}]}, {"c" : [{"v": "Turkmenistan"}, {"v": 8}]}, {"c" : [{"v": "French-Guadeloupe"}, {"v": 3}]}, {"c" : [{"v": "Jan Mayen"}, {"v": 1}]}, {"c" : [{"v": "ZZZAbkhazia"}, {"v": 3}]}, {"c" : [{"v": "Haiti"}, {"v": 9}]}, {"c" : [{"v": "New Caledonia"}, {"v": 7}]}, {"c" : [{"v": "Zambia"}, {"v": 14}]}, {"c" : [{"v": "Suriname"}, {"v": 1}]}, {"c" : [{"v": "Midway Islands"}, {"v": 13}]}, {"c" : [{"v": "Grenada"}, {"v": 3}]}, {"c" : [{"v": "Malawi"}, {"v": 9}]}, {"c" : [{"v": "Kiribati"}, {"v": 4}]}, {"c" : [{"v": "Lesotho"}, {"v": 2}]}, {"c" : [{"v": "Cape Verde"}, {"v": 3}]}, {"c" : [{"v": "Congo (DRC)"}, {"v": 6}]}, {"c" : [{"v": "Iraq"}, {"v": 31}]}, {"c" : [{"v": "Laos"}, {"v": 2}]}, {"c" : [{"v": "Ivory Coast"}, {"v": 9}]}, {"c" : [{"v": "French-Martinique"}, {"v": 3}]}, {"c" : [{"v": "Burkina Faso"}, {"v": 5}]}, {"c" : [{"v": "Sierra Leone"}, {"v": 3}]}, {"c" : [{"v": "Dominican Republic"}, {"v": 8}]}, {"c" : [{"v": "Pitcairn Islands"}, {"v": 2}]}, {"c" : [{"v": "Svalbard"}, {"v": 1}]}, {"c" : [{"v": "Swaziland"}, {"v": 1}]}, {"c" : [{"v": "Monaco"}, {"v": 8}]}, {"c" : [{"v": "Northern Mariana Islands"}, {"v": 3}]}, {"c" : [{"v": "Guernsey"}, {"v": 2}]}, {"c" : [{"v": "Nigeria"}, {"v": 12}]}, {"c" : [{"v": "Republic of Korea"}, {"v": 1}]}, {"c" : [{"v": "Equatorial Guinea"}, {"v": 2}]}, {"c" : [{"v": "Timor-Leste"}, {"v": 1}]}, {"c" : [{"v": "Cook Islands"}, {"v": 1}]}, {"c" : [{"v": "Korea, North"}, {"v": 4}]}, {"c" : [{"v": "The Bahamas"}, {"v": 2}]}, {"c" : [{"v": "Pridnestrovie"}, {"v": 5}]}, {"c" : [{"v": "Transnistria"}, {"v": 1}]}, {"c" : [{"v": "Burundi"}, {"v": 1}]}, {"c" : [{"v": "Somalia"}, {"v": 3}]}, {"c" : [{"v": "Bouvet Island"}, {"v": 1}]}, {"c" : [{"v": "Papua New Guinea"}, {"v": 2}]}, {"c" : [{"v": "Gambia"}, {"v": 1}]}, {"c" : [{"v": "Tonga"}, {"v": 1}]}, {"c" : [{"v": "Togo"}, {"v": 2}]}, {"c" : [{"v": "East Timor"}, {"v": 1}]}, {"c" : [{"v": "Saint Barthelemy"}, {"v": 1}]}, {"c" : [{"v": "Christmas Island"}, {"v": 1}]}, {"c" : [{"v": "Saint Pierre and Miquelon"}, {"v": 1}]}, {"c" : [{"v": "Falkland Islands (Islas Malvinas)"}, {"v": 1}]}]});
+    var options = {"legend":{"position":"none"},"width":1000,"height":600} ;
+    var chart = new google.visualization.GeoChart(document.getElementById('c0946653-59db-4a2b-95e2-a0ffa85d6dfb'));
+    chart.draw(data, options);
+}
+</script>
+<div id="c0946653-59db-4a2b-95e2-a0ffa85d6dfb" style="width: 800px; height: 600px;"></div>
 
 ------------------------------------------------------------------------------------------------
 
@@ -346,26 +428,13 @@ n \times \frac{1}{\text{population}} \times \frac{\text{registered}}{\text{locat
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+- data-background: images/posts-background.png
+- class : withbackground 
+
+# Where really?
 
 ' we need population
 ' demo: HTML type provider
-
-------------------------------------------------------------------------------------------------
-
-#### C#
-
-<script type="text/javascript">
-    google.load("visualization", "1", {packages:["geochart"]})
-    google.setOnLoadCallback(drawChart);
-function drawChart() {
-    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "United States"}, {"v": 670.535401381481}]}, {"c" : [{"v": "Canada"}, {"v": 859.864353932267}]}, {"c" : [{"v": "United Kingdom"}, {"v": 1038.57591813224}]}, {"c" : [{"v": "Turkey"}, {"v": 126.63803754908}]}, {"c" : [{"v": "Australia"}, {"v": 1017.73391790064}]}, {"c" : [{"v": "India"}, {"v": 73.9701250381566}]}, {"c" : [{"v": "Israel"}, {"v": 982.295832472123}]}, {"c" : [{"v": "New Zealand"}, {"v": 1391.84294948194}]}, {"c" : [{"v": "South Africa"}, {"v": 154.220092911692}]}, {"c" : [{"v": "Denmark"}, {"v": 1609.72939471198}]}, {"c" : [{"v": "Germany"}, {"v": 397.418188897564}]}, {"c" : [{"v": "Netherlands"}, {"v": 1071.62590960937}]}, {"c" : [{"v": "Ireland"}, {"v": 1144.22119716098}]}, {"c" : [{"v": "Sweden"}, {"v": 1433.49401915104}]}, {"c" : [{"v": "France"}, {"v": 224.859255157669}]}, {"c" : [{"v": "Belgium"}, {"v": 790.445818580377}]}, {"c" : [{"v": "Norway"}, {"v": 1198.71643471521}]}, {"c" : [{"v": "Lebanon"}, {"v": 185.547182623178}]}, {"c" : [{"v": "Hungary"}, {"v": 299.735295052542}]}, {"c" : [{"v": "Finland"}, {"v": 514.253542601698}]}, {"c" : [{"v": "Mexico"}, {"v": 31.5268077371783}]}, {"c" : [{"v": "Croatia"}, {"v": 442.429498412436}]}, {"c" : [{"v": "Philippines"}, {"v": 43.1432188619698}]}, {"c" : [{"v": "Poland"}, {"v": 299.716308727237}]}, {"c" : [{"v": "Uganda"}, {"v": 6.02835804534653}]}, {"c" : [{"v": "Argentina"}, {"v": 90.0064778016475}]}, {"c" : [{"v": "Brazil"}, {"v": 69.7925158680194}]}, {"c" : [{"v": "Paraguay"}, {"v": 25.3266716728618}]}, {"c" : [{"v": "Luxembourg"}, {"v": 433.855812475197}]}, {"c" : [{"v": "Spain"}, {"v": 167.029004493394}]}, {"c" : [{"v": "Belarus"}, {"v": 299.692879680601}]}, {"c" : [{"v": "Thailand"}, {"v": 18.3826343681608}]}, {"c" : [{"v": "Japan"}, {"v": 17.4422752424056}]}, {"c" : [{"v": "Austria"}, {"v": 629.927878832799}]}, {"c" : [{"v": "Portugal"}, {"v": 484.144542943107}]}, {"c" : [{"v": "Italy"}, {"v": 154.52821763801}]}, {"c" : [{"v": "Russia"}, {"v": 108.005646755603}]}, {"c" : [{"v": "Iceland"}, {"v": 2368.43415798779}]}, {"c" : [{"v": "Singapore"}, {"v": 690.01929906411}]}, {"c" : [{"v": "Oman"}, {"v": 1386.7328414427}]}, {"c" : [{"v": "Kenya"}, {"v": 12.6387353628882}]}, {"c" : [{"v": "Honduras"}, {"v": 17.5174896878728}]}, {"c" : [{"v": "Costa Rica"}, {"v": 139.15529335209}]}, {"c" : [{"v": "Uruguay"}, {"v": 281.337962539118}]}, {"c" : [{"v": "Switzerland"}, {"v": 839.958789615842}]}, {"c" : [{"v": "Bangladesh"}, {"v": 20.2183029173918}]}, {"c" : [{"v": "Pakistan"}, {"v": 54.6230900081828}]}, {"c" : [{"v": "Colombia"}, {"v": 28.1540183453459}]}, {"c" : [{"v": "Estonia"}, {"v": 617.397159173701}]}, {"c" : [{"v": "Greece"}, {"v": 249.419395949819}]}, {"c" : [{"v": "Slovakia"}, {"v": 273.860872711018}]}, {"c" : [{"v": "Ukraine"}, {"v": 263.87435293967}]}, {"c" : [{"v": "Lithuania"}, {"v": 520.759002760641}]}, {"c" : [{"v": "Malaysia"}, {"v": 67.7857488427263}]}, {"c" : [{"v": "Chile"}, {"v": 69.4719519324747}]}, {"c" : [{"v": "Gabon"}, {"v": 7.70591807664795}]}, {"c" : [{"v": "China"}, {"v": 1129.51440171214}]}, {"c" : [{"v": "Czech Republic"}, {"v": 501.150229139074}]}, {"c" : [{"v": "Ethiopia"}, {"v": 2.5605654699915}]}, {"c" : [{"v": "Georgia"}, {"v": 293.039517153687}]}, {"c" : [{"v": "Trinidad and Tobago"}, {"v": 51.4504934155792}]}, {"c" : [{"v": "Slovenia"}, {"v": 710.102932696489}]}, {"c" : [{"v": "El Salvador"}, {"v": 40.4675782442083}]}, {"c" : [{"v": "Jordan"}, {"v": 125.063161815841}]}, {"c" : [{"v": "Serbia"}, {"v": 291.448595830281}]}, {"c" : [{"v": "Guatemala"}, {"v": 23.1811631817266}]}, {"c" : [{"v": "Nepal"}, {"v": 48.1152366918901}]}, {"c" : [{"v": "Armenia"}, {"v": 190.116013286081}]}, {"c" : [{"v": "Latvia"}, {"v": 475.040761433586}]}, {"c" : [{"v": "Cuba"}, {"v": 34.6000219718453}]}, {"c" : [{"v": "Peru"}, {"v": 24.2579517116924}]}, {"c" : [{"v": "Kuwait"}, {"v": 63.0730154729553}]}, {"c" : [{"v": "United Arab Emirates"}, {"v": 162.047865383996}]}, {"c" : [{"v": "Moldova"}, {"v": 121.1714855196}]}, {"c" : [{"v": "Botswana"}, {"v": 46.6902667953529}]}, {"c" : [{"v": "Iran"}, {"v": 113.851642823447}]}, {"c" : [{"v": "Venezuela"}, {"v": 23.4985947692171}]}, {"c" : [{"v": "Egypt"}, {"v": 38.5189556929233}]}, {"c" : [{"v": "Bulgaria"}, {"v": 453.312015797099}]}, {"c" : [{"v": "Cambodia"}, {"v": 20.8859325611512}]}, {"c" : [{"v": "Samoa"}, {"v": 71.2584806455903}]}, {"c" : [{"v": "Ecuador"}, {"v": 18.3914313458067}]}, {"c" : [{"v": "Macedonia"}, {"v": 298.378679520976}]}, {"c" : [{"v": "Bosnia and Herzegovina"}, {"v": 210.417897957853}]}, {"c" : [{"v": "Saint Lucia"}, {"v": 74.6677775233597}]}, {"c" : [{"v": "South Korea"}, {"v": 20.3039764536141}]}, {"c" : [{"v": "Taiwan"}, {"v": 43.4103354924824}]}, {"c" : [{"v": "Vietnam"}, {"v": 35.5070654669336}]}, {"c" : [{"v": "Madagascar"}, {"v": 1.85717864411995}]}, {"c" : [{"v": "Kyrgyzstan"}, {"v": 34.4460959836922}]}, {"c" : [{"v": "Antigua and Barbuda"}, {"v": 402.346793538006}]}, {"c" : [{"v": "Mali"}, {"v": 4.16472037546464}]}, {"c" : [{"v": "Albania"}, {"v": 79.4017133661273}]}, {"c" : [{"v": "Qatar"}, {"v": 89.634985788565}]}, {"c" : [{"v": "Algeria"}, {"v": 13.5788158778248}]}, {"c" : [{"v": "Palestine"}, {"v": 53.3440594676014}]}, {"c" : [{"v": "Malta"}, {"v": 2368.43415798779}]}, {"c" : [{"v": "Afghanistan"}, {"v": 9.54096765112788}]}, {"c" : [{"v": "Saudi Arabia"}, {"v": 27.9859731008199}]}, {"c" : [{"v": "Panama"}, {"v": 47.3295439428301}]}, {"c" : [{"v": "Indonesia"}, {"v": 10.2330395190525}]}, {"c" : [{"v": "Tunisia"}, {"v": 85.911053641146}]}, {"c" : [{"v": "Niger"}, {"v": 45.5900579346104}]}, {"c" : [{"v": "Dominica"}, {"v": 2368.43415798779}]}, {"c" : [{"v": "Ghana"}, {"v": 6.02303691448196}]}, {"c" : [{"v": "Fiji"}, {"v": 72.0841174014441}]}, {"c" : [{"v": "Sri Lanka"}, {"v": 196.737449487047}]}, {"c" : [{"v": "Solomon Islands"}, {"v": 21.6327205908799}]}, {"c" : [{"v": "Abkhazia"}, {"v": 144.245098973275}]}, {"c" : [{"v": "Zambia"}, {"v": 4.35807349010436}]}, {"c" : [{"v": "Cyprus"}, {"v": 475.511206565528}]}, {"c" : [{"v": "Swaziland"}, {"v": 18.3924258879938}]}, {"c" : [{"v": "Kazakhstan"}, {"v": 21.1219148504108}]}, {"c" : [{"v": "Romania"}, {"v": 20.0310672394398}]}, {"c" : [{"v": "Myanmar"}, {"v": 6.25900696865481}]}, {"c" : [{"v": "Nicaragua"}, {"v": 21.0672552863798}]}, {"c" : [{"v": "Mongolia"}, {"v": 35.7848358457431}]}, {"c" : [{"v": "The Bahamas"}, {"v": 73.4747995944604}]}, {"c" : [{"v": "Guinea"}, {"v": 2.14539377760793}]}, {"c" : [{"v": "Morocco"}, {"v": 19.9676691063666}]}, {"c" : [{"v": "Bahrain"}, {"v": 98.8554816666304}]}, {"c" : [{"v": "Syria"}, {"v": 32.1694077047959}]}, {"c" : [{"v": "Bolivia"}, {"v": 25.2856295434461}]}, {"c" : [{"v": "Montenegro"}, {"v": 145.178339083871}]}, {"c" : [{"v": "Senegal"}, {"v": 1.40760191897891}]}, {"c" : [{"v": "Rwanda"}, {"v": 1.80316549241797}]}, {"c" : [{"v": "Mauritius"}, {"v": 131.967100119757}]}, {"c" : [{"v": "Jamaica"}, {"v": 61.1984666211348}]}, {"c" : [{"v": "Azerbaijan"}, {"v": 45.5561080230677}]}, {"c" : [{"v": "Chad"}, {"v": 1.91601112221079}]}, {"c" : [{"v": "Zimbabwe"}, {"v": 9.26519707378288}]}, {"c" : [{"v": "Libya"}, {"v": 13.0507814747172}]}, {"c" : [{"v": "Uzbekistan"}, {"v": 6.81758217973688}]}, {"c" : [{"v": "Yemen"}, {"v": 4.54887035352297}]}, {"c" : [{"v": "Maldives"}, {"v": 161.479978017108}]}, {"c" : [{"v": "Kosovo"}, {"v": 83.1639098632613}]}, {"c" : [{"v": "Central African Republic"}, {"v": 15.2831405374944}]}, {"c" : [{"v": "Brunei"}, {"v": 67.4348464158529}]}, {"c" : [{"v": "South Sudan"}, {"v": 2.28970515527902}]}, {"c" : [{"v": "Andorra"}, {"v": 2368.43415798779}]}, {"c" : [{"v": "Seychelles"}, {"v": 298.209366558123}]}, {"c" : [{"v": "Marshall Islands"}, {"v": 2368.43415798779}]}, {"c" : [{"v": "Benin"}, {"v": 1.95541453937}]}, {"c" : [{"v": "Bhutan"}, {"v": 35.7009539975191}]}, {"c" : [{"v": "Iraq"}, {"v": 7.14875134770857}]}, {"c" : [{"v": "Guyana"}, {"v": 27.8916989275905}]}, {"c" : [{"v": "Angola"}, {"v": 1.99352512474448}]}, {"c" : [{"v": "Burkina Faso"}, {"v": 1.09445599611153}]}, {"c" : [{"v": "Tanzania"}, {"v": 2.51803220367055}]}, {"c" : [{"v": "Nigeria"}, {"v": 0.297093003173357}]}, {"c" : [{"v": "Cameroon"}, {"v": 2.44619509759798}]}, {"c" : [{"v": "Tajikistan"}, {"v": 7.30872760929155}]}, {"c" : [{"v": "Tuvalu"}, {"v": 652.64128850305}]}, {"c" : [{"v": "Liechtenstein"}, {"v": 1107.42417824296}]}, {"c" : [{"v": "North Korea"}, {"v": 4.01500841205651}]}, {"c" : [{"v": "Namibia"}, {"v": 8.96249246210932}]}, {"c" : [{"v": "Malawi"}, {"v": 1.65012545297811}]}, {"c" : [{"v": "Suriname"}, {"v": 76.9233692208352}]}, {"c" : [{"v": "Barbados"}, {"v": 24.3652747707805}]}, {"c" : [{"v": "Micronesia"}, {"v": 135.099286180398}]}, {"c" : [{"v": "Ivory Coast"}, {"v": 2.14406128902212}]}, {"c" : [{"v": "San Marino"}, {"v": 420.790989830174}]}, {"c" : [{"v": "Mozambique"}, {"v": 2.62798295078753}]}, {"c" : [{"v": "Turkmenistan"}, {"v": 7.30785931493254}]}, {"c" : [{"v": "São Tomé and Príncipe"}, {"v": 37.0636825597923}]}, {"c" : [{"v": "Dominican Republic"}, {"v": 2.75695177924166}]}, {"c" : [{"v": "Monaco"}, {"v": 361.672047378774}]}, {"c" : [{"v": "Lesotho"}, {"v": 10.8728131153535}]}, {"c" : [{"v": "Cape Verde"}, {"v": 39.2145718386966}]}, {"c" : [{"v": "The Bahamas"}, {"v": 18.3686998986151}]}, {"c" : [{"v": "Haiti"}, {"v": 1.25367081135657}]}, {"c" : [{"v": "Mauritania"}, {"v": 3.73471610592391}]}, {"c" : [{"v": "Laos"}, {"v": 2.13914833025459}]}, {"c" : [{"v": "Sudan"}, {"v": 0.843222181570873}]}, {"c" : [{"v": "Papua New Guinea"}, {"v": 1.71805072174189}]}, {"c" : [{"v": "South Korea"}, {"v": 0.274378060183974}]}, {"c" : [{"v": "Grenada"}, {"v": 67.204468388747}]}, {"c" : [{"v": "Sierra Leone"}, {"v": 1.96281956918743}]}, {"c" : [{"v": "Belize"}, {"v": 36.9456613684293}]}, {"c" : [{"v": "North Korea"}, {"v": 0.286786315146893}]}]});
-    var options = {"legend":{"position":"none"},"width":1000,"height":600}  
-    var chart = new google.visualization.GeoChart(document.getElementById('f262b395-fe04-45c7-a5d2-608efd5ff25a'));
-    chart.draw(data, options);
-}
-</script>
-<div id="f262b395-fe04-45c7-a5d2-608efd5ff25a" style="width: 800px; height: 600px;"></div>
 
 ------------------------------------------------------------------------------------------------
 
@@ -383,6 +452,21 @@ function drawChart() {
 </script>
 <div id="2f1227d9-f924-4eed-ad93-6fe640abde4c" style="width: 800px; height: 600px;"></div>
 
+------------------------------------------------------------------------------------------------
+
+### R
+
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["geochart"]})
+    google.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "United States"}, {"v": 86.142972528205}]}, {"c" : [{"v": "France"}, {"v": 34.8578669494766}]}, {"c" : [{"v": "Ireland"}, {"v": 121.135662454542}]}, {"c" : [{"v": "United Kingdom"}, {"v": 94.9201650377589}]}, {"c" : [{"v": "Australia"}, {"v": 99.4389174833419}]}, {"c" : [{"v": "Sweden"}, {"v": 103.592341227712}]}, {"c" : [{"v": "Poland"}, {"v": 23.4859072540933}]}, {"c" : [{"v": "Switzerland"}, {"v": 149.84398625456}]}, {"c" : [{"v": "Netherlands"}, {"v": 104.650393213385}]}, {"c" : [{"v": "Russia"}, {"v": 6.81841873424234}]}, {"c" : [{"v": "Germany"}, {"v": 61.264764395223}]}, {"c" : [{"v": "Brazil"}, {"v": 7.62442357152844}]}, {"c" : [{"v": "Singapore"}, {"v": 94.0935407814696}]}, {"c" : [{"v": "Canada"}, {"v": 84.5053554274897}]}, {"c" : [{"v": "Spain"}, {"v": 26.7665101202485}]}, {"c" : [{"v": "Greece"}, {"v": 30.0582348965166}]}, {"c" : [{"v": "Belgium"}, {"v": 63.1620785987423}]}, {"c" : [{"v": "New Zealand"}, {"v": 108.865264654264}]}, {"c" : [{"v": "Lebanon"}, {"v": 6.95801934836919}]}, {"c" : [{"v": "Norway"}, {"v": 88.8429215994678}]}, {"c" : [{"v": "Oman"}, {"v": 38.6061481470684}]}, {"c" : [{"v": "Denmark"}, {"v": 137.075675661231}]}, {"c" : [{"v": "Portugal"}, {"v": 36.2604789444213}]}, {"c" : [{"v": "Italy"}, {"v": 21.4050197765244}]}, {"c" : [{"v": "Pakistan"}, {"v": 0.714325732386172}]}, {"c" : [{"v": "Saint Lucia"}, {"v": 37.3338887616799}]}, {"c" : [{"v": "Hungary"}, {"v": 14.1384573137992}]}, {"c" : [{"v": "Israel"}, {"v": 59.0071194142223}]}, {"c" : [{"v": "India"}, {"v": 4.34143431194298}]}, {"c" : [{"v": "Austria"}, {"v": 72.2868057676982}]}, {"c" : [{"v": "Slovenia"}, {"v": 63.9429181101104}]}, {"c" : [{"v": "Ukraine"}, {"v": 14.4878577493095}]}, {"c" : [{"v": "Finland"}, {"v": 83.3924663678429}]}, {"c" : [{"v": "Trinidad and Tobago"}, {"v": 5.14504934155792}]}, {"c" : [{"v": "Turkey"}, {"v": 4.76215461535537}]}, {"c" : [{"v": "South Africa"}, {"v": 7.73595935317548}]}, {"c" : [{"v": "Thailand"}, {"v": 1.05647323954947}]}, {"c" : [{"v": "Qatar"}, {"v": 8.67435346340951}]}, {"c" : [{"v": "Czech Republic"}, {"v": 33.5415507691506}]}, {"c" : [{"v": "Bulgaria"}, {"v": 8.73620587189271}]}, {"c" : [{"v": "Costa Rica"}, {"v": 14.1995197298051}]}, {"c" : [{"v": "Venezuela"}, {"v": 2.0141652659329}]}, {"c" : [{"v": "Japan"}, {"v": 3.71810255950966}]}, {"c" : [{"v": "Argentina"}, {"v": 7.16865752402502}]}, {"c" : [{"v": "Sri Lanka"}, {"v": 6.95536437580471}]}, {"c" : [{"v": "Lithuania"}, {"v": 65.3976422071502}]}, {"c" : [{"v": "China"}, {"v": 157.848456138851}]}, {"c" : [{"v": "Colombia"}, {"v": 4.68968598815053}]}, {"c" : [{"v": "Ghana"}, {"v": 0.501919742873497}]}, {"c" : [{"v": "Mexico"}, {"v": 3.56296114837973}]}, {"c" : [{"v": "Estonia"}, {"v": 79.1534819453463}]}, {"c" : [{"v": "Philippines"}, {"v": 1.07759713840026}]}, {"c" : [{"v": "Luxembourg"}, {"v": 60.2577517326662}]}, {"c" : [{"v": "Iran"}, {"v": 2.87952774119407}]}, {"c" : [{"v": "Latvia"}, {"v": 24.8155621644411}]}, {"c" : [{"v": "Malaysia"}, {"v": 4.58851345323173}]}, {"c" : [{"v": "Chile"}, {"v": 13.3599907562451}]}, {"c" : [{"v": "Morocco"}, {"v": 0.610927137612498}]}, {"c" : [{"v": "Slovakia"}, {"v": 15.3566844510851}]}, {"c" : [{"v": "Peru"}, {"v": 3.52842933988254}]}, {"c" : [{"v": "Serbia"}, {"v": 14.7196260520344}]}, {"c" : [{"v": "Tanzania"}, {"v": 0.881311271284692}]}, {"c" : [{"v": "Georgia"}, {"v": 24.2644186178212}]}, {"c" : [{"v": "Croatia"}, {"v": 14.9133538790709}]}, {"c" : [{"v": "Jordan"}, {"v": 3.56710061790081}]}, {"c" : [{"v": "United Arab Emirates"}, {"v": 4.22733561871294}]}, {"c" : [{"v": "Cameroon"}, {"v": 0.305774387199748}]}, {"c" : [{"v": "Kenya"}, {"v": 3.08620282117038}]}, {"c" : [{"v": "Iceland"}, {"v": 185.96955837366}]}, {"c" : [{"v": "Uruguay"}, {"v": 5.98591409657699}]}, {"c" : [{"v": "Egypt"}, {"v": 1.0602574734783}]}, {"c" : [{"v": "Bangladesh"}, {"v": 0.947776961143472}]}, {"c" : [{"v": "Indonesia"}, {"v": 0.453025187041387}]}, {"c" : [{"v": "Armenia"}, {"v": 11.5924398345171}]}, {"c" : [{"v": "Cyprus"}, {"v": 49.190814472296}]}, {"c" : [{"v": "South Korea"}, {"v": 4.52723799303557}]}, {"c" : [{"v": "Senegal"}, {"v": 0.469200639659638}]}, {"c" : [{"v": "Vietnam"}, {"v": 1.19855073306105}]}, {"c" : [{"v": "Kazakhstan"}, {"v": 1.56458628521561}]}, {"c" : [{"v": "Romania"}, {"v": 0.702844464541746}]}, {"c" : [{"v": "Kyrgyzstan"}, {"v": 1.14820319945641}]}, {"c" : [{"v": "Dominica"}, {"v": 194.804631862103}]}, {"c" : [{"v": "Kuwait"}, {"v": 4.97944858997016}]}, {"c" : [{"v": "Fiji"}, {"v": 32.037385511753}]}, {"c" : [{"v": "Mozambique"}, {"v": 0.262798295078753}]}, {"c" : [{"v": "Taiwan"}, {"v": 7.97332692719065}]}, {"c" : [{"v": "Moldova"}, {"v": 9.77189399351616}]}, {"c" : [{"v": "Tunisia"}, {"v": 5.60289480268343}]}, {"c" : [{"v": "Belarus"}, {"v": 5.11670770186391}]}, {"c" : [{"v": "San Marino"}, {"v": 210.395494915087}]}, {"c" : [{"v": "Azerbaijan"}, {"v": 1.42362837572087}]}, {"c" : [{"v": "Iraq"}, {"v": 0.366602633215824}]}, {"c" : [{"v": "Niger"}, {"v": 1.3408840569003}]}, {"c" : [{"v": "Bosnia and Herzegovina"}, {"v": 3.9330448216421}]}, {"c" : [{"v": "Albania"}, {"v": 2.40611252624628}]}, {"c" : [{"v": "Nicaragua"}, {"v": 3.32640872942839}]}, {"c" : [{"v": "Cambodia"}, {"v": 2.66628926312568}]}, {"c" : [{"v": "Nepal"}, {"v": 3.66359670242818}]}, {"c" : [{"v": "Ecuador"}, {"v": 1.25252016505323}]}, {"c" : [{"v": "North Korea"}, {"v": 1.43393157573447}]}, {"c" : [{"v": "Burkina Faso"}, {"v": 0.364818665370511}]}, {"c" : [{"v": "Mauritius"}, {"v": 10.9972583433131}]}, {"c" : [{"v": "Ethiopia"}, {"v": 0.150621498234794}]}, {"c" : [{"v": "Syria"}, {"v": 0.748125760576649}]}, {"c" : [{"v": "The Bahamas"}, {"v": 18.3686998986151}]}, {"c" : [{"v": "Honduras"}, {"v": 1.59249906253389}]}, {"c" : [{"v": "Suriname"}, {"v": 12.8205615368059}]}, {"c" : [{"v": "Micronesia"}, {"v": 67.549643090199}]}, {"c" : [{"v": "South Korea"}, {"v": 0.137189030091987}]}, {"c" : [{"v": "Macedonia"}, {"v": 10.0577082984599}]}, {"c" : [{"v": "Tonga"}, {"v": 67.2539351264136}]}, {"c" : [{"v": "Saudi Arabia"}, {"v": 0.223887784806559}]}, {"c" : [{"v": "Algeria"}, {"v": 0.687534981155688}]}, {"c" : [{"v": "Grenada"}, {"v": 67.204468388747}]}, {"c" : [{"v": "Bolivia"}, {"v": 1.2642814771723}]}, {"c" : [{"v": "Malta"}, {"v": 48.5212555177605}]}, {"c" : [{"v": "Rwanda"}, {"v": 1.20211032827865}]}, {"c" : [{"v": "Nigeria"}, {"v": 0.0371366253966696}]}, {"c" : [{"v": "Cuba"}, {"v": 0.617857535211523}]}, {"c" : [{"v": "South Sudan"}, {"v": 0.572426288819756}]}, {"c" : [{"v": "Guyana"}, {"v": 9.29723297586351}]}, {"c" : [{"v": "Uzbekistan"}, {"v": 0.439844011595928}]}, {"c" : [{"v": "Zambia"}, {"v": 0.435807349010436}]}, {"c" : [{"v": "Mongolia"}, {"v": 2.23415964791675}]}, {"c" : [{"v": "Guatemala"}, {"v": 2.14640399830802}]}, {"c" : [{"v": "The Bahamas"}, {"v": 18.3686998986151}]}, {"c" : [{"v": "Andorra"}, {"v": 89.0109891772304}]}, {"c" : [{"v": "Afghanistan"}, {"v": 0.251078096082313}]}, {"c" : [{"v": "Abkhazia"}, {"v": 28.8490197946551}]}, {"c" : [{"v": "Antigua and Barbuda"}, {"v": 80.4693587076013}]}, {"c" : [{"v": "Palestine"}, {"v": 1.4417313369622}]}, {"c" : [{"v": "Panama"}, {"v": 1.82036707472424}]}, {"c" : [{"v": "Mali"}, {"v": 0.378610943224058}]}, {"c" : [{"v": "Laos"}, {"v": 1.0695741651273}]}]});
+    var options = {"legend":{"position":"none"},"width":1000,"height":600} 
+    var chart = new google.visualization.GeoChart(document.getElementById('f18c96ce-58b2-4455-b135-76efefd6ac7c'));
+    chart.draw(data, options);
+}
+</script>
+<div id="f18c96ce-58b2-4455-b135-76efefd6ac7c" style="width: 800px; height: 600px;"></div>
 
 ------------------------------------------------------------------------------------------------
 
@@ -390,9 +474,11 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : black
+- data-background : #121412
 
 ## (Sampling bias)
+
+<img src="images/skull.jpg" style="width: 200px" />
 
 ' only registered users
 ' only active users
@@ -458,47 +544,29 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-
-- data-background: images/part1-once.gif
-
-------------------------------------------------------------------------------------------------
-
-- data-background: images/part1-1.png
+<img src="images/tsne-explanation0.png" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background: images/part1-2.png
+<img src="images/tsne-explanation1.png" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background: images/part1-3.png
+<img src="images/tsne-explanation2.png" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background: images/part1-4.png
+<img src="images/tsne-explanation3.png" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background: images/part2-once.gif
+<img src="images/tsne-explanation4.png" />
 
 ------------------------------------------------------------------------------------------------
 
-- data-background: images/part2-1.png
+<img src="images/tsne-explanation5.png" />
 
 ------------------------------------------------------------------------------------------------
-
-- data-background: images/part2-2.png
-
-------------------------------------------------------------------------------------------------
-
-- data-background: images/part2-3.png
-
-------------------------------------------------------------------------------------------------
-
-- data-background: images/part2-4.png
-
-------------------------------------------------------------------------------------------------
-
 # t-SNE in R
 
     [lang=R]
@@ -513,7 +581,7 @@ function drawChart() {
 # t-SNE in F#
 
     open RProvider
-    open RProvider.tsne(tsne)
+    open RProvider.tsne
 
     let ts = R.tsne(namedParams[ "X", box m; "perplexity", box 20])
 
@@ -525,27 +593,13 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-*The best thing about R is that it was written by statisticians. The worst thing about R is that it was written by statisticians.*
-
+*The best thing about R is that it was written by statisticians.*
+<div class="fragment">
+*The worst thing about R is that it was written by statisticians.*
+</div>
 <br />
 
 Bow Cowgill, 2009
-
-------------------------------------------------------------------------------------------------
-
-- data-background : images/tsne-full.png
-
-------------------------------------------------------------------------------------------------
-
-<img src="images/tsne-terminal.png" style="width: 600px" />
-
-------------------------------------------------------------------------------------------------
-
-<img src="images/tsne-general.png" style="width: 960px" />
-
-------------------------------------------------------------------------------------------------
-
-<img src="images/tsne-datascience.png" style="width: 600px" />
 
 ------------------------------------------------------------------------------------------------
 
@@ -553,72 +607,25 @@ Bow Cowgill, 2009
 
 ------------------------------------------------------------------------------------------------
 
-[![](images/tsne-sample.png)](images/tsne-2.html)
-
-' that's why it's good to have a proper language at hand as well!
-' TODO visualization with D3
+- data-background : images/tsne-full.png
 
 ------------------------------------------------------------------------------------------------
 
-# Quantifying Communities
-
-' image showing how we can define a network using user data
+<img src="images/tsne-example1.png" style="height: 640px" />
 
 ------------------------------------------------------------------------------------------------
 
-![Network](images/network-basic.png)
+<img src="images/tsne-example2.png" style="height: 640px" />
 
 ------------------------------------------------------------------------------------------------
 
-![](images/network-tags.png)
+<img src="images/tsne-example3.png" style="width: 960px" />
 
 ------------------------------------------------------------------------------------------------
 
-![](images/network-links.png)
+<img src="images/hapmap-tsne.png" style="height: 550px" />
 
-------------------------------------------------------------------------------------------------
-
-# No overlap
-
-### iOS  - R
-### Django - middleware
-
-' So that when someone comes and says: I want someone to write a statistics app for iphone - now you know that one person knowing both is very rare to find
-' Or they are avoidint StackOverflow
-
-------------------------------------------------------------------------------------------------
-
-# Most Central
-### Based on number of connections
-
-1. arrays 
-2. string 
-3. performance
-
-------------------------------------------------------------------------------------------------
-
-# Communities
-### Clustering of nodes in a network
-
-' idea of algorithms
-
-------------------------------------------------------------------------------------------------
-
-![](images/clusters1.png)
-
-(depending on algorithm used)
-
-------------------------------------------------------------------------------------------------
-
-![](images/clusters2.png)
-
-(depending on algorithm used)
-
-------------------------------------------------------------------------------------------------
-
-![](images/clusters3.png)
-
-(depending on algorithm used)
+Platzer, A. (2013). Visualization of SNPs with t-SNE. PLoS ONE, 8(2), e56883. 
 
 ************************************************************************************************
 
@@ -634,9 +641,71 @@ Bow Cowgill, 2009
 
 ------------------------------------------------------------------------------------------------
 
+# Word2vec
+
+word embeddings
+
+------------------------------------------------------------------------------------------------
+
+# t-SNE
+### Point + local neighbourhood
+# ⬇
+### 2D embedding
+
+------------------------------------------------------------------------------------------------
+
+# Word2vec
+### Word + local context
+# ⬇
+### vector-space embedding
+
+------------------------------------------------------------------------------------------------
+
+# Word2vec
+
+**F#** is a functional language on the **.NET platform**. <br/>
+**Scala** is a functional language on the **JVM**.
+
+------------------------------------------------------------------------------------------------
+
+## Scala - JVM + .NET
+# =
+<div class="fragment"> 
+## C#, F# 
+</div>
+
+------------------------------------------------------------------------------------------------
+
+## F# - .NET
+# =
+<div class="fragment"> 
+## SML, OCaml, GHCi, Haskell, Idris
+</div>
+
+------------------------------------------------------------------------------------------------
+
+![](images/word2vec-paper3.png)
+
+------------------------------------------------------------------------------------------------
+
+![](images/word2vec-paper2.png)
+
+------------------------------------------------------------------------------------------------
+
+![](images/word2vec-paper1.png)
+
+------------------------------------------------------------------------------------------------
+
+- data-background: images/posts-background.png
+- class : withbackground
+
+<div class="fragment">
+
 ## Is
-![](images/so-logo.png)
+# StackOverflow
 ## a meritocracy?
+
+</div>
 
 ' now a provocative question
 ' How would we recognize meritocracy? Well, if you come and give a good answer, then you get higher score and reputation for your answer
@@ -644,42 +713,11 @@ Bow Cowgill, 2009
 
 ------------------------------------------------------------------------------------------------
 
-![](images/reputation-score.png)
+<img src="images/reputation-score.png" style="width: 960px"/>
 
 ------------------------------------------------------------------------------------------------
 
-![](images/reputation-score-log.png)
-
-------------------------------------------------------------------------------------------------
-
-# Machine learning
-
-<table>
-<tr>
-<td class="noborder" style="width:50%;">
-
-## Unsupervised
-
-- Clustering
-- Anomaly detection
-- ...
-
-*Data exploration*
-
-</td>
-<td class="noborder" style="width:50%;">
-
-## Supervised
-
-- Classification
-- Regression
-- ...
-
-*Prediction*
-
-</td>
-</tr>
-</table>
+<img src="images/reputation-score-log.png" style="width: 960px"/>
 
 ------------------------------------------------------------------------------------------------
 
@@ -701,7 +739,7 @@ Bow Cowgill, 2009
 "Number of tags" 
 "Answer Count"           
 "Comment Count"           
-"Question Favorite Count"
+"Question Favourite Count"
 "Question View Count"     
 "Author Reputation"      
 "Author Profile Views"    
@@ -718,33 +756,28 @@ Bow Cowgill, 2009
 
 "Score"  
 
-------------------------------------------------------------------------------------------------
-
-## Linear and non-linear Regression
-
-![](images/lr.png)
-
-------------------------------------------------------------------------------------------------
-
-## Power-law distributions
-
-<img src="images/power-law.png" style="height:400px" />
+<div class="fragment">
+linear regression, nonlinear regression, random forests, SVMs, neural networks
 
 ------------------------------------------------------------------------------------------------
 
 # Most predictive
 
-- Accepted
-- Favourites
+<div class="fragment">
 
-' TODO: Regenerate data with correct time to answer
+- Question favourites
+
+- Question view count
+
+- Accepted
+
+</div>
 
 ------------------------------------------------------------------------------------------------
 
  - data-background : images/chucknorrisapproves.gif
 
 ------------------------------------------------------------------------------------------------
-
 
 ![](images/leverage.png)
 
@@ -766,17 +799,19 @@ Bow Cowgill, 2009
 
 ------------------------------------------------------------------------------------------------
 
-- data-background : #f68024
+- data-background: images/posts-background.png
+- class : withbackground
 
-## Quality of answer matters!
+# Quality matters
 
 <div class="fragment">
-### ... unless you are Jon Skeet
+## ... unless you are Jon Skeet
 </div>
 
 ************************************************************************************************
 
-' Summary
+- data-background: images/posts-background.png
+- class : withbackground
 
 # Technological side of things
 
@@ -784,23 +819,18 @@ Bow Cowgill, 2009
 ' Data science is about a lot of things - from preprocessing the data, through mathematical models, to visualization
 ' No single tool - but type providers are a great thing that basically make external data sources a part of your IDE
 
-### Tool for the job
+## Tool for the job
 
 ------------------------------------------------------------------------------------------------
 
-' Summary
+- data-background: images/posts-background.png
+- class : withbackground
 
 # Data science side of things
-### Questions
-
-------------------------------------------------------------------------------------------------
-
-- Hobby projects vs. enterprise
-- Communities
-- Help others
+## Questions
 
 <div class="fragment">
-- Move to the Dominican republic
+## Move to the Dominican republic?
 </div>
 
 ' think about your demographics - who are you targetting with your product
@@ -816,7 +846,7 @@ Bow Cowgill, 2009
 <table>
 <tr>
   <td class="noborder" style="width:60%;"></td>
-   <td class="noborder" style="width:4%;">
+   <td class="noborder" style="width:40%;">
 
 <h2> <div style="color: white" > Evelina Gabasova </div> </h2>
 <div style="color: white" >
@@ -827,3 +857,4 @@ evelinag.com<br />
 </td> 
 </tr>
 </table>
+
