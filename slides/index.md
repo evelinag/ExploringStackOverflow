@@ -42,6 +42,18 @@
 - data-background : images/star-wars.png
 
 ------------------------------------------------------------------------------------------------
+
+<img src="images/pourlascience.jpg" style="height:600px" />
+
+------------------------------------------------------------------------------------------------
+
+![](images/oxford1.png)
+
+------------------------------------------------------------------------------------------------
+
+![](images/oxford2.png)
+
+------------------------------------------------------------------------------------------------
 ![](images/so-logo.png)
 
 ' Why analyze StackOverflow?
@@ -224,6 +236,14 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
+<img src="images/weekend-ratio7-2.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
+<img src="images/weekend-ratio6-2.png" style="height: 600px" />
+
+------------------------------------------------------------------------------------------------
+
 - data-background: images/posts-background.png
 - class : withbackground
 
@@ -259,6 +279,23 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
+### Most common tags
+
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]})
+    google.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "Javascript"}, {"v": 0.518497878359265}]}, {"c" : [{"v": "Java"}, {"v": 0.555125629697412}]}, {"c" : [{"v": "C#"}, {"v": 0.429015290270245}]}, {"c" : [{"v": "PHP"}, {"v": 0.604675088961483}]}, {"c" : [{"v": "Android"}, {"v": 0.568765387056324}]}, {"c" : [{"v": "jQuery"}, {"v": 0.495770103573165}]}, {"c" : [{"v": "Python"}, {"v": 0.606629300657529}]}, {"c" : [{"v": "HTML"}, {"v": 0.563124671856233}]}]});
+    var options = {"colors":["#f68024"],"hAxis":{"title":"Number of questions","viewWindowMode":"explicit","viewWindow":{"min":0}},"legend":{"position":"none"},"width":1000,"height":600}  
+    var chart = new google.visualization.BarChart(document.getElementById('af330988-5e35-4700-a383-56b4ab9138aa'));
+    chart.draw(data, options);
+}
+</script>
+<div id="af330988-5e35-4700-a383-56b4ab9138aa" style="width: 800px; height: 600px;"></div>
+
+
+------------------------------------------------------------------------------------------------
+
 ### Functional languages
 
 <script type="text/javascript">
@@ -272,23 +309,6 @@ function drawChart() {
 }
 </script>
 <div id="8c94b49e-d814-44db-acbd-8d057057761b" style="width: 800px; height: 600px;"></div>
-
-------------------------------------------------------------------------------------------------
-
-### Data science
-
-<script type="text/javascript">
-    google.load("visualization", "1", {packages:["corechart"]})
-    google.setOnLoadCallback(drawChart);
-function drawChart() {
-    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "Python"}, {"v": 0.606629300657529}]}, {"c" : [{"v": "R"}, {"v": 0.49564316329895}]}, {"c" : [{"v": "Scala"}, {"v": 0.592436649187611}]}, {"c" : [{"v": "Matlab"}, {"v": 0.579115610015983}]}, {"c" : [{"v": "SAS"}, {"v": 0.294543000385654}]}, {"c" : [{"v": "Hadoop"}, {"v": 0.410816667419078}]}, {"c" : [{"v": "F#"}, {"v": 0.651055951727921}]}]});
-    var options = {"hAxis":{"title":"Number of questions","viewWindowMode":"explicit","viewWindow":{"min":0}},"legend":{"position":"none"},"width":1000,"height":600}  
-    var chart = new google.visualization.BarChart(document.getElementById('8d5b1ad7-9c7e-47bc-b894-a6e867ad589f'));
-    chart.draw(data, options);
-}
-</script>
-<div id="8d5b1ad7-9c7e-47bc-b894-a6e867ad589f" style="width: 800px; height: 600px;"></div>
-
 
 ------------------------------------------------------------------------------------------------
 
@@ -344,6 +364,9 @@ function drawChart() {
 ![](images/profile2.png)
 
 ------------------------------------------------------------------------------------------------
+
+- data-background: images/posts-background.png
+- class : withbackground
 
 # Question: Where?
 
@@ -454,19 +477,7 @@ function drawChart() {
 
 ------------------------------------------------------------------------------------------------
 
-### R
 
-<script type="text/javascript">
-    google.load("visualization", "1", {packages:["geochart"]})
-    google.setOnLoadCallback(drawChart);
-function drawChart() {
-    var data = new google.visualization.DataTable({"cols": [{"type": "string" ,"id": "Column 1" ,"label": "Column 1" }, {"type": "number" ,"id": "Column 2" ,"label": "Column 2" }], "rows" : [{"c" : [{"v": "United States"}, {"v": 86.142972528205}]}, {"c" : [{"v": "France"}, {"v": 34.8578669494766}]}, {"c" : [{"v": "Ireland"}, {"v": 121.135662454542}]}, {"c" : [{"v": "United Kingdom"}, {"v": 94.9201650377589}]}, {"c" : [{"v": "Australia"}, {"v": 99.4389174833419}]}, {"c" : [{"v": "Sweden"}, {"v": 103.592341227712}]}, {"c" : [{"v": "Poland"}, {"v": 23.4859072540933}]}, {"c" : [{"v": "Switzerland"}, {"v": 149.84398625456}]}, {"c" : [{"v": "Netherlands"}, {"v": 104.650393213385}]}, {"c" : [{"v": "Russia"}, {"v": 6.81841873424234}]}, {"c" : [{"v": "Germany"}, {"v": 61.264764395223}]}, {"c" : [{"v": "Brazil"}, {"v": 7.62442357152844}]}, {"c" : [{"v": "Singapore"}, {"v": 94.0935407814696}]}, {"c" : [{"v": "Canada"}, {"v": 84.5053554274897}]}, {"c" : [{"v": "Spain"}, {"v": 26.7665101202485}]}, {"c" : [{"v": "Greece"}, {"v": 30.0582348965166}]}, {"c" : [{"v": "Belgium"}, {"v": 63.1620785987423}]}, {"c" : [{"v": "New Zealand"}, {"v": 108.865264654264}]}, {"c" : [{"v": "Lebanon"}, {"v": 6.95801934836919}]}, {"c" : [{"v": "Norway"}, {"v": 88.8429215994678}]}, {"c" : [{"v": "Oman"}, {"v": 38.6061481470684}]}, {"c" : [{"v": "Denmark"}, {"v": 137.075675661231}]}, {"c" : [{"v": "Portugal"}, {"v": 36.2604789444213}]}, {"c" : [{"v": "Italy"}, {"v": 21.4050197765244}]}, {"c" : [{"v": "Pakistan"}, {"v": 0.714325732386172}]}, {"c" : [{"v": "Saint Lucia"}, {"v": 37.3338887616799}]}, {"c" : [{"v": "Hungary"}, {"v": 14.1384573137992}]}, {"c" : [{"v": "Israel"}, {"v": 59.0071194142223}]}, {"c" : [{"v": "India"}, {"v": 4.34143431194298}]}, {"c" : [{"v": "Austria"}, {"v": 72.2868057676982}]}, {"c" : [{"v": "Slovenia"}, {"v": 63.9429181101104}]}, {"c" : [{"v": "Ukraine"}, {"v": 14.4878577493095}]}, {"c" : [{"v": "Finland"}, {"v": 83.3924663678429}]}, {"c" : [{"v": "Trinidad and Tobago"}, {"v": 5.14504934155792}]}, {"c" : [{"v": "Turkey"}, {"v": 4.76215461535537}]}, {"c" : [{"v": "South Africa"}, {"v": 7.73595935317548}]}, {"c" : [{"v": "Thailand"}, {"v": 1.05647323954947}]}, {"c" : [{"v": "Qatar"}, {"v": 8.67435346340951}]}, {"c" : [{"v": "Czech Republic"}, {"v": 33.5415507691506}]}, {"c" : [{"v": "Bulgaria"}, {"v": 8.73620587189271}]}, {"c" : [{"v": "Costa Rica"}, {"v": 14.1995197298051}]}, {"c" : [{"v": "Venezuela"}, {"v": 2.0141652659329}]}, {"c" : [{"v": "Japan"}, {"v": 3.71810255950966}]}, {"c" : [{"v": "Argentina"}, {"v": 7.16865752402502}]}, {"c" : [{"v": "Sri Lanka"}, {"v": 6.95536437580471}]}, {"c" : [{"v": "Lithuania"}, {"v": 65.3976422071502}]}, {"c" : [{"v": "China"}, {"v": 157.848456138851}]}, {"c" : [{"v": "Colombia"}, {"v": 4.68968598815053}]}, {"c" : [{"v": "Ghana"}, {"v": 0.501919742873497}]}, {"c" : [{"v": "Mexico"}, {"v": 3.56296114837973}]}, {"c" : [{"v": "Estonia"}, {"v": 79.1534819453463}]}, {"c" : [{"v": "Philippines"}, {"v": 1.07759713840026}]}, {"c" : [{"v": "Luxembourg"}, {"v": 60.2577517326662}]}, {"c" : [{"v": "Iran"}, {"v": 2.87952774119407}]}, {"c" : [{"v": "Latvia"}, {"v": 24.8155621644411}]}, {"c" : [{"v": "Malaysia"}, {"v": 4.58851345323173}]}, {"c" : [{"v": "Chile"}, {"v": 13.3599907562451}]}, {"c" : [{"v": "Morocco"}, {"v": 0.610927137612498}]}, {"c" : [{"v": "Slovakia"}, {"v": 15.3566844510851}]}, {"c" : [{"v": "Peru"}, {"v": 3.52842933988254}]}, {"c" : [{"v": "Serbia"}, {"v": 14.7196260520344}]}, {"c" : [{"v": "Tanzania"}, {"v": 0.881311271284692}]}, {"c" : [{"v": "Georgia"}, {"v": 24.2644186178212}]}, {"c" : [{"v": "Croatia"}, {"v": 14.9133538790709}]}, {"c" : [{"v": "Jordan"}, {"v": 3.56710061790081}]}, {"c" : [{"v": "United Arab Emirates"}, {"v": 4.22733561871294}]}, {"c" : [{"v": "Cameroon"}, {"v": 0.305774387199748}]}, {"c" : [{"v": "Kenya"}, {"v": 3.08620282117038}]}, {"c" : [{"v": "Iceland"}, {"v": 185.96955837366}]}, {"c" : [{"v": "Uruguay"}, {"v": 5.98591409657699}]}, {"c" : [{"v": "Egypt"}, {"v": 1.0602574734783}]}, {"c" : [{"v": "Bangladesh"}, {"v": 0.947776961143472}]}, {"c" : [{"v": "Indonesia"}, {"v": 0.453025187041387}]}, {"c" : [{"v": "Armenia"}, {"v": 11.5924398345171}]}, {"c" : [{"v": "Cyprus"}, {"v": 49.190814472296}]}, {"c" : [{"v": "South Korea"}, {"v": 4.52723799303557}]}, {"c" : [{"v": "Senegal"}, {"v": 0.469200639659638}]}, {"c" : [{"v": "Vietnam"}, {"v": 1.19855073306105}]}, {"c" : [{"v": "Kazakhstan"}, {"v": 1.56458628521561}]}, {"c" : [{"v": "Romania"}, {"v": 0.702844464541746}]}, {"c" : [{"v": "Kyrgyzstan"}, {"v": 1.14820319945641}]}, {"c" : [{"v": "Dominica"}, {"v": 194.804631862103}]}, {"c" : [{"v": "Kuwait"}, {"v": 4.97944858997016}]}, {"c" : [{"v": "Fiji"}, {"v": 32.037385511753}]}, {"c" : [{"v": "Mozambique"}, {"v": 0.262798295078753}]}, {"c" : [{"v": "Taiwan"}, {"v": 7.97332692719065}]}, {"c" : [{"v": "Moldova"}, {"v": 9.77189399351616}]}, {"c" : [{"v": "Tunisia"}, {"v": 5.60289480268343}]}, {"c" : [{"v": "Belarus"}, {"v": 5.11670770186391}]}, {"c" : [{"v": "San Marino"}, {"v": 210.395494915087}]}, {"c" : [{"v": "Azerbaijan"}, {"v": 1.42362837572087}]}, {"c" : [{"v": "Iraq"}, {"v": 0.366602633215824}]}, {"c" : [{"v": "Niger"}, {"v": 1.3408840569003}]}, {"c" : [{"v": "Bosnia and Herzegovina"}, {"v": 3.9330448216421}]}, {"c" : [{"v": "Albania"}, {"v": 2.40611252624628}]}, {"c" : [{"v": "Nicaragua"}, {"v": 3.32640872942839}]}, {"c" : [{"v": "Cambodia"}, {"v": 2.66628926312568}]}, {"c" : [{"v": "Nepal"}, {"v": 3.66359670242818}]}, {"c" : [{"v": "Ecuador"}, {"v": 1.25252016505323}]}, {"c" : [{"v": "North Korea"}, {"v": 1.43393157573447}]}, {"c" : [{"v": "Burkina Faso"}, {"v": 0.364818665370511}]}, {"c" : [{"v": "Mauritius"}, {"v": 10.9972583433131}]}, {"c" : [{"v": "Ethiopia"}, {"v": 0.150621498234794}]}, {"c" : [{"v": "Syria"}, {"v": 0.748125760576649}]}, {"c" : [{"v": "The Bahamas"}, {"v": 18.3686998986151}]}, {"c" : [{"v": "Honduras"}, {"v": 1.59249906253389}]}, {"c" : [{"v": "Suriname"}, {"v": 12.8205615368059}]}, {"c" : [{"v": "Micronesia"}, {"v": 67.549643090199}]}, {"c" : [{"v": "South Korea"}, {"v": 0.137189030091987}]}, {"c" : [{"v": "Macedonia"}, {"v": 10.0577082984599}]}, {"c" : [{"v": "Tonga"}, {"v": 67.2539351264136}]}, {"c" : [{"v": "Saudi Arabia"}, {"v": 0.223887784806559}]}, {"c" : [{"v": "Algeria"}, {"v": 0.687534981155688}]}, {"c" : [{"v": "Grenada"}, {"v": 67.204468388747}]}, {"c" : [{"v": "Bolivia"}, {"v": 1.2642814771723}]}, {"c" : [{"v": "Malta"}, {"v": 48.5212555177605}]}, {"c" : [{"v": "Rwanda"}, {"v": 1.20211032827865}]}, {"c" : [{"v": "Nigeria"}, {"v": 0.0371366253966696}]}, {"c" : [{"v": "Cuba"}, {"v": 0.617857535211523}]}, {"c" : [{"v": "South Sudan"}, {"v": 0.572426288819756}]}, {"c" : [{"v": "Guyana"}, {"v": 9.29723297586351}]}, {"c" : [{"v": "Uzbekistan"}, {"v": 0.439844011595928}]}, {"c" : [{"v": "Zambia"}, {"v": 0.435807349010436}]}, {"c" : [{"v": "Mongolia"}, {"v": 2.23415964791675}]}, {"c" : [{"v": "Guatemala"}, {"v": 2.14640399830802}]}, {"c" : [{"v": "The Bahamas"}, {"v": 18.3686998986151}]}, {"c" : [{"v": "Andorra"}, {"v": 89.0109891772304}]}, {"c" : [{"v": "Afghanistan"}, {"v": 0.251078096082313}]}, {"c" : [{"v": "Abkhazia"}, {"v": 28.8490197946551}]}, {"c" : [{"v": "Antigua and Barbuda"}, {"v": 80.4693587076013}]}, {"c" : [{"v": "Palestine"}, {"v": 1.4417313369622}]}, {"c" : [{"v": "Panama"}, {"v": 1.82036707472424}]}, {"c" : [{"v": "Mali"}, {"v": 0.378610943224058}]}, {"c" : [{"v": "Laos"}, {"v": 1.0695741651273}]}]});
-    var options = {"legend":{"position":"none"},"width":1000,"height":600} 
-    var chart = new google.visualization.GeoChart(document.getElementById('f18c96ce-58b2-4455-b135-76efefd6ac7c'));
-    chart.draw(data, options);
-}
-</script>
-<div id="f18c96ce-58b2-4455-b135-76efefd6ac7c" style="width: 800px; height: 600px;"></div>
 
 ------------------------------------------------------------------------------------------------
 
@@ -539,8 +550,9 @@ function drawChart() {
 # t-SNE
 ## t-distributed Stochastic Neighbourhood embedding
 
-' image
-' run t-sne on my desktop at work
+------------------------------------------------------------------------------------------------
+
+# Embedding
 
 ------------------------------------------------------------------------------------------------
 
@@ -603,6 +615,8 @@ Bow Cowgill, 2009
 
 ------------------------------------------------------------------------------------------------
 
+## fable.io
+
 ![](images/fable.png)
 
 ------------------------------------------------------------------------------------------------
@@ -626,6 +640,68 @@ Bow Cowgill, 2009
 <img src="images/hapmap-tsne.png" style="height: 550px" />
 
 Platzer, A. (2013). Visualization of SNPs with t-SNE. PLoS ONE, 8(2), e56883. 
+
+------------------------------------------------------------------------------------------------
+
+# Quantifying Communities
+
+' image showing how we can define a network using user data
+
+------------------------------------------------------------------------------------------------
+
+![Network](images/network-basic.png)
+
+------------------------------------------------------------------------------------------------
+
+![](images/network-tags.png)
+
+------------------------------------------------------------------------------------------------
+
+![](images/network-links.png)
+
+------------------------------------------------------------------------------------------------
+
+# No overlap
+
+### iOS  - R
+### Django - middleware
+
+' So that when someone comes and says: I want someone to write a statistics app for iphone - now you know that one person knowing both is very rare to find
+' Or they are avoidint StackOverflow
+
+------------------------------------------------------------------------------------------------
+
+# Most Central
+### Based on number of connections
+
+1. arrays 
+2. string 
+3. performance
+
+------------------------------------------------------------------------------------------------
+
+# Communities
+### Clustering of nodes in a network
+
+' idea of algorithms
+
+------------------------------------------------------------------------------------------------
+
+![](images/clusters1.png)
+
+(depending on algorithm used)
+
+------------------------------------------------------------------------------------------------
+
+![](images/clusters2.png)
+
+(depending on algorithm used)
+
+------------------------------------------------------------------------------------------------
+
+![](images/clusters3.png)
+
+(depending on algorithm used)
 
 ************************************************************************************************
 
@@ -663,8 +739,10 @@ word embeddings
 
 # Word2vec
 
-**F#** is a functional language on the **.NET platform**. <br/>
-**Scala** is a functional language on the **JVM**.
+<br/>
+
+**F#** is a functional language on the **.NET platform**. <br/><br/>
+**Scala** is a functional/object oriented language on the **JVM**.
 
 ------------------------------------------------------------------------------------------------
 
@@ -795,6 +873,10 @@ linear regression, nonlinear regression, random forests, SVMs, neural networks
 
 ------------------------------------------------------------------------------------------------
 
+![](images/leverage.png)
+
+------------------------------------------------------------------------------------------------
+
 ![](images/jonskeet.png)
 
 ------------------------------------------------------------------------------------------------
@@ -829,10 +911,6 @@ linear regression, nonlinear regression, random forests, SVMs, neural networks
 # Data science side of things
 ## Questions
 
-<div class="fragment">
-## Move to the Dominican republic?
-</div>
-
 ' think about your demographics - who are you targetting with your product
 ' if you're doing .NET - there's a world out there! And if you're doing JavaScript - it's not the only thing in the world!
 ' help people on StackOverflow - what matters is that answers are helpful, not who they come from (unless...)
@@ -842,17 +920,17 @@ linear regression, nonlinear regression, random forests, SVMs, neural networks
 ------------------------------------------------------------------------------------------------
 
 - data-background : images/beach.jpg
+- class : withbackground
 
 <table>
 <tr>
   <td class="noborder" style="width:60%;"></td>
    <td class="noborder" style="width:40%;">
 
-<h2> <div style="color: white" > Evelina Gabasova </div> </h2>
-<div style="color: white" >
-@evelgab <br />
-evelinag.com<br />
-</div>
+<h2> <div style="color: white; font-size:72pt" > Evelina Gabasova </div> </h2>
+<h2 >
+@evelgab </h2>
+<h2>evelinag.com</h2><br />
 <br /><br /><br/><br/><br/><br/>
 </td> 
 </tr>
